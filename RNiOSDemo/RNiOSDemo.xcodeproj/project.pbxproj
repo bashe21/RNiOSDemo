@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D65BD9924CE788B00736C58 /* RNPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D65BD9824CE788B00736C58 /* RNPageViewController.m */; };
+		8D65BD9C24CE7B5300736C58 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65BD9B24CE7B5300736C58 /* Test.swift */; };
+		8D65BD9F24CEA35900736C58 /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D65BD9E24CEA35900736C58 /* PhotoManager.m */; };
+		8D65BDA224CEACCD00736C58 /* PhotoMudule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D65BDA124CEACCD00736C58 /* PhotoMudule.m */; };
+		8D65BDA524CEBE3200736C58 /* UtilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D65BDA424CEBE3200736C58 /* UtilTool.m */; };
+		8D72050B24CD81D600DE284D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72050A24CD81D600DE284D /* AppDelegate.m */; };
+		8D72051124CD81D600DE284D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72051024CD81D600DE284D /* ViewController.m */; };
+		8D72051424CD81D600DE284D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72051224CD81D600DE284D /* Main.storyboard */; };
+		8D72051624CD81D700DE284D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D72051524CD81D700DE284D /* Assets.xcassets */; };
+		8D72051924CD81D700DE284D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D72051724CD81D700DE284D /* LaunchScreen.storyboard */; };
+		8D72051C24CD81D700DE284D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D72051B24CD81D700DE284D /* main.m */; };
+		985CD007C46AA5979516E85E /* libPods-RNiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE77FF5CB9A16B57FBD5709 /* libPods-RNiOSDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		470ECC6D48442407521F58BC /* Pods-RNiOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNiOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-RNiOSDemo/Pods-RNiOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		721FB354004567CD77146328 /* Pods-RNiOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNiOSDemo.release.xcconfig"; path = "Target Support Files/Pods-RNiOSDemo/Pods-RNiOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8D65BD9724CE788A00736C58 /* RNPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPageViewController.h; sourceTree = "<group>"; };
+		8D65BD9824CE788B00736C58 /* RNPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPageViewController.m; sourceTree = "<group>"; };
+		8D65BD9A24CE7B5300736C58 /* RNiOSDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNiOSDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D65BD9B24CE7B5300736C58 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		8D65BD9D24CEA35900736C58 /* PhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
+		8D65BD9E24CEA35900736C58 /* PhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoManager.m; sourceTree = "<group>"; };
+		8D65BDA024CEACCD00736C58 /* PhotoMudule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoMudule.h; sourceTree = "<group>"; };
+		8D65BDA124CEACCD00736C58 /* PhotoMudule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMudule.m; sourceTree = "<group>"; };
+		8D65BDA324CEBE3200736C58 /* UtilTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilTool.h; sourceTree = "<group>"; };
+		8D65BDA424CEBE3200736C58 /* UtilTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilTool.m; sourceTree = "<group>"; };
+		8D72050624CD81D600DE284D /* RNiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D72050924CD81D600DE284D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D72050A24CD81D600DE284D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D72050F24CD81D600DE284D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D72051024CD81D600DE284D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D72051324CD81D600DE284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D72051524CD81D700DE284D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D72051824CD81D700DE284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D72051A24CD81D700DE284D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D72051B24CD81D700DE284D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAE77FF5CB9A16B57FBD5709 /* libPods-RNiOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNiOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D72050324CD81D600DE284D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985CD007C46AA5979516E85E /* libPods-RNiOSDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8058990B8A73FC1C57BE9E01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				470ECC6D48442407521F58BC /* Pods-RNiOSDemo.debug.xcconfig */,
+				721FB354004567CD77146328 /* Pods-RNiOSDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D7204FD24CD81D600DE284D = {
+			isa = PBXGroup;
+			children = (
+				8D72050824CD81D600DE284D /* RNiOSDemo */,
+				8D72050724CD81D600DE284D /* Products */,
+				8058990B8A73FC1C57BE9E01 /* Pods */,
+				CA48C0CE65A5825C768F6860 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D72050724CD81D600DE284D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D72050624CD81D600DE284D /* RNiOSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D72050824CD81D600DE284D /* RNiOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D72050924CD81D600DE284D /* AppDelegate.h */,
+				8D72050A24CD81D600DE284D /* AppDelegate.m */,
+				8D72050F24CD81D600DE284D /* ViewController.h */,
+				8D72051024CD81D600DE284D /* ViewController.m */,
+				8D65BD9724CE788A00736C58 /* RNPageViewController.h */,
+				8D65BD9824CE788B00736C58 /* RNPageViewController.m */,
+				8D65BD9D24CEA35900736C58 /* PhotoManager.h */,
+				8D65BD9E24CEA35900736C58 /* PhotoManager.m */,
+				8D65BDA024CEACCD00736C58 /* PhotoMudule.h */,
+				8D65BDA124CEACCD00736C58 /* PhotoMudule.m */,
+				8D65BDA324CEBE3200736C58 /* UtilTool.h */,
+				8D65BDA424CEBE3200736C58 /* UtilTool.m */,
+				8D72051224CD81D600DE284D /* Main.storyboard */,
+				8D72051524CD81D700DE284D /* Assets.xcassets */,
+				8D72051724CD81D700DE284D /* LaunchScreen.storyboard */,
+				8D72051A24CD81D700DE284D /* Info.plist */,
+				8D72051B24CD81D700DE284D /* main.m */,
+				8D65BD9B24CE7B5300736C58 /* Test.swift */,
+				8D65BD9A24CE7B5300736C58 /* RNiOSDemo-Bridging-Header.h */,
+			);
+			path = RNiOSDemo;
+			sourceTree = "<group>";
+		};
+		CA48C0CE65A5825C768F6860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAE77FF5CB9A16B57FBD5709 /* libPods-RNiOSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D72050524CD81D600DE284D /* RNiOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D72051F24CD81D700DE284D /* Build configuration list for PBXNativeTarget "RNiOSDemo" */;
+			buildPhases = (
+				6178DF49A36ADE4A8317405F /* [CP] Check Pods Manifest.lock */,
+				8D72050224CD81D600DE284D /* Sources */,
+				8D72050324CD81D600DE284D /* Frameworks */,
+				8D72050424CD81D600DE284D /* Resources */,
+				407C326FE3DF13124295D53D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNiOSDemo;
+			productName = RNiOSDemo;
+			productReference = 8D72050624CD81D600DE284D /* RNiOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D7204FE24CD81D600DE284D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = zyx;
+				TargetAttributes = {
+					8D72050524CD81D600DE284D = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 8D72050124CD81D600DE284D /* Build configuration list for PBXProject "RNiOSDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D7204FD24CD81D600DE284D;
+			productRefGroup = 8D72050724CD81D600DE284D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D72050524CD81D600DE284D /* RNiOSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D72050424CD81D600DE284D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D72051924CD81D700DE284D /* LaunchScreen.storyboard in Resources */,
+				8D72051624CD81D700DE284D /* Assets.xcassets in Resources */,
+				8D72051424CD81D600DE284D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		407C326FE3DF13124295D53D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNiOSDemo/Pods-RNiOSDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNiOSDemo/Pods-RNiOSDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNiOSDemo/Pods-RNiOSDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6178DF49A36ADE4A8317405F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNiOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D72050224CD81D600DE284D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D72051124CD81D600DE284D /* ViewController.m in Sources */,
+				8D65BDA524CEBE3200736C58 /* UtilTool.m in Sources */,
+				8D65BD9F24CEA35900736C58 /* PhotoManager.m in Sources */,
+				8D65BD9924CE788B00736C58 /* RNPageViewController.m in Sources */,
+				8D72050B24CD81D600DE284D /* AppDelegate.m in Sources */,
+				8D72051C24CD81D700DE284D /* main.m in Sources */,
+				8D65BDA224CEACCD00736C58 /* PhotoMudule.m in Sources */,
+				8D65BD9C24CE7B5300736C58 /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D72051224CD81D600DE284D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D72051324CD81D600DE284D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D72051724CD81D700DE284D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D72051824CD81D700DE284D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D72051D24CD81D700DE284D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D72051E24CD81D700DE284D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D72052024CD81D700DE284D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470ECC6D48442407521F58BC /* Pods-RNiOSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNiOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyx.RNiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNiOSDemo/RNiOSDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8D72052124CD81D700DE284D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721FB354004567CD77146328 /* Pods-RNiOSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNiOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyx.RNiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNiOSDemo/RNiOSDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D72050124CD81D600DE284D /* Build configuration list for PBXProject "RNiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D72051D24CD81D700DE284D /* Debug */,
+				8D72051E24CD81D700DE284D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D72051F24CD81D700DE284D /* Build configuration list for PBXNativeTarget "RNiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D72052024CD81D700DE284D /* Debug */,
+				8D72052124CD81D700DE284D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D7204FE24CD81D600DE284D /* Project object */;
+}

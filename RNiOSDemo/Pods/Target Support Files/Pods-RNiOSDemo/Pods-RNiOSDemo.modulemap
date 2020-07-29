@@ -1,0 +1,6 @@
+module Pods_RNiOSDemo {
+  umbrella header "Pods-RNiOSDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
